@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #003B49;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  margin-left: 1rem;
+  font-size: calc(10px + 2vmin);
+  color: #40C1AC;
+}
+
+.description {
+  color:white;
+  display: flex;
+  margin-left:3rem;
+
+}
+
+.description h4 {
+  display: flex;
+  margin-left: 3rem;
+
+}
+
+
+
