@@ -84,13 +84,19 @@ section#about{
   background-color: white;
 }
 
+section#skills{
+  background-color:#003B49; 
+}
+
 section#experience{
-  background-color: #003B49;
+  background-color: white;
 }
 
 section#contact{
-  background-color: white;
+  background-color: #003B49;
 }
+
+
 
 /*.title {
   color:white;

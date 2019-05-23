@@ -26,6 +26,7 @@ function App() {
           <ul>
             <li><a href="#home">Lara Loicq</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -50,6 +51,11 @@ function App() {
           <p>I'm a Bulldog Frenchie Lover</p>
         </section>
 
+        <section id="skills">
+          <h1>Skills</h1>
+          <p>I'm a Bulldog Frenchie Lover</p>
+        </section>
+
         <section id="experience">
           <h1>Experience</h1>
           <p>I'm a Bulldog Frenchie Lover</p>
@@ -59,6 +65,8 @@ function App() {
           <h1>Contact</h1>
           <p>I'm a Bulldog Frenchie Lover</p>
         </section>
+
+        
 
       </header>
       
