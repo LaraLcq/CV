@@ -6,6 +6,7 @@
   text-align: center;
   background-color: #003B49;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .App-header {
@@ -16,6 +17,9 @@
   width: 100%;
   height: 100%;
   /* CSS Smooth Scroll */
+  /* overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory; */
 }
 
 .navbar {
@@ -59,6 +63,7 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
+  scroll-snap-align: center;
 }
 
 section h1 {
@@ -67,6 +72,24 @@ section h1 {
 
 section p {
   font-size: 1.5rem;
+}
+
+/* section background */
+
+section#home{
+  background-color: #003B49;
+}
+
+section#about{
+  background-color: white;
+}
+
+section#experience{
+  background-color: #003B49;
+}
+
+section#contact{
+  background-color: white;
 }
 
 /*.title {

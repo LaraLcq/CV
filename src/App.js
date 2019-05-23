@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
-import './function.js';
 
 function App() {
+  useEffect(() => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault(); 
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+    });
+
+    return () => document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.removeEventListener('click');
+    });
+  });
+
+
   return (
     <React.Fragment>
     <div className="App">
