@@ -1,18 +1,30 @@
 import React from 'react';
 import './App.css';
+import './function.js';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
+    <div className="box1">
       <header className="App-header">
-       <h1>Lara Loicq</h1>
+       <h1>LARA LOICQ</h1>
       </header>
-      <div className="description">
+      <div className="title">
         <h2>Front-end developer junior</h2>
-        <h4>Hi ! I'm Lara and I don't care about you.</h4>
       </div>
-    </div>
+        <div className="description">
+          
+          <h4>Hi ! I'm Lara and I'm looking for a job or  a fresh new internship.
+              I'm a passionate, creative and beer pong professional.
+              If you want to know more about me, just scroll !
+              </h4>
+        </div>
+      </div>
+
+  
+    </React.Fragment>
   );
 }
+
 
 export default App;

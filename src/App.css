@@ -1,4 +1,8 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+.box1 {
   text-align: center;
   background-color: #003B49;
   min-height: 100vh;
@@ -6,22 +10,68 @@
 
 .App-header {
   display: flex;
-  margin-left: 1rem;
+  margin-left: 6rem;
   font-size: calc(10px + 2vmin);
   color: #40C1AC;
+  font-family: 'Catamaran', sans-serif;
 }
 
-.description {
+.title {
   color:white;
   display: flex;
-  margin-left:3rem;
+  margin-left:6rem;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  
+
+
 
 }
 
 .description h4 {
+  color:white;
   display: flex;
-  margin-left: 3rem;
+  font-size: 2rem;
+  max-width: 30rem;
+  margin-left: 6rem;
+  text-align: justify;
+  float: left;
+  font-family: 'Lato', sans-serif;
 
+
+}
+
+h4 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 100%; 
+    text-align: justify;
+    float: left;
+    display: flex;
+  }
+
+  75% {
+    margin-left: 3rem;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 3rem;
+    width: 100%;
+    text-align: justify;
+    float: left;
+    display: flex;
+  }
+}
+
+.box2 {
+  background: #40C1AC;
 }
 
 
