@@ -33,17 +33,15 @@ function App() {
         </nav>
 
         <section id="home">
-        <h1>Lara Loicq</h1>
-          <p>Home</p>
-          {/* <div className="title">
+          <div className="title">
             <h1>Front-end developer junior</h1>
           </div>
           <div className="description">
-            <h4>Hi ! I'm Lara and I'm looking for a job or  a fresh new internship.
+            <h2>Hi ! I'm Lara and I'm looking for a job or  a fresh new internship.
                 I'm a passionate, creative and beer pong professional.
                 If you want to know more about me, just scroll !
-            </h4>
-          </div> */}
+            </h2>
+          </div> 
         </section>
 
         <section id="about">

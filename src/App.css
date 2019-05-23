@@ -98,7 +98,7 @@ section#contact{
 
 
 
-/*.title {
+.title {
   color:white;
   display: flex;
   margin-left:6rem;
@@ -108,9 +108,9 @@ section#contact{
 
 
 
-}*/
+}
 
-/*description h4 {
+.description h2 {
   color:white;
   display: flex;
   font-size: 2rem;
@@ -121,9 +121,9 @@ section#contact{
   font-family: 'Lato', sans-serif;
 
 
-} */
+} 
 
-/*h4 {
+h2 {
   animation-duration: 2s;
   animation-name: slidein;
 }
@@ -152,9 +152,7 @@ section#contact{
   }
 }
 
-.box2 {
-  background: #40C1AC;
-} */
+ 
 
 
 
