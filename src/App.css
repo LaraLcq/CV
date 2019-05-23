@@ -7,11 +7,9 @@
   background-color: #003B49;
   min-height: 100vh;
 }
-nav {
-  margin-left: 0 !important; 
-}
+
 .App-header {
-  display: flex;
+  
   font-size: calc(10px + 2vmin);
   color: #40C1AC;
   font-family: 'Catamaran', sans-serif;
@@ -37,7 +35,41 @@ nav {
   justify-content: center;
 }
 
-.title {
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 0rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+}
+
+.navbar ul li a:hover {
+  color: skyblue;
+
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section h1 {
+  font-size: 4rem
+}
+
+section p {
+  font-size: 1.5rem;
+}
+
+/*.title {
   color:white;
   display: flex;
   margin-left:6rem;
@@ -47,9 +79,9 @@ nav {
 
 
 
-}
+}*/
 
-.description h4 {
+/*description h4 {
   color:white;
   display: flex;
   font-size: 2rem;
@@ -60,9 +92,9 @@ nav {
   font-family: 'Lato', sans-serif;
 
 
-}
+} */
 
-h4 {
+/*h4 {
   animation-duration: 2s;
   animation-name: slidein;
 }
@@ -93,7 +125,7 @@ h4 {
 
 .box2 {
   background: #40C1AC;
-}
+} */
 
 
 
