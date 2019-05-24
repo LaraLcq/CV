@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import './burgerMenu.css'
 
 function App() {
   useEffect(() => {
@@ -21,27 +22,34 @@ function App() {
   return (
     <React.Fragment>
     <div className="App">
-      <header className="App-header">
         <nav className="navbar" id="navbar">
-          <ul>
-            <li><a href="#home">Lara Loicq</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+          <input type="checkbox" className="toggler" />
+          <div className="hamburger"><div></div></div>
+          <div className="menu">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="#home">Lara Loicq</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    <header className="showcase">
+       <div className="container showcase-inner">
+      
+       </div>
+    </header> 
+
+       
         </nav>
 
         <section id="home">
-          <div className="title">
-            <h1>Front-end developer junior</h1>
-          </div>
-          <div className="description">
-            <h2>Hi ! I'm Lara and I'm looking for a job or  a fresh new internship.
-                I'm a passionate, creative and beer pong professional.
-                If you want to know more about me, just scroll !
-            </h2>
-          </div> 
+            <h1>Lara Loicq</h1>
+            <p>I'm a front-end developer junior and a Bulldog Frenchie Lover</p>
         </section>
 
         <section id="about">
@@ -65,8 +73,6 @@ function App() {
         </section>
 
         
-
-      </header>
       
       </div>
 
