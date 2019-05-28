@@ -22,8 +22,8 @@
     top:0;
     left: 0;
     z-index:1;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     padding: 1rem;
     background: var(--primary-color);
     display: flex;
@@ -86,7 +86,7 @@
 /* color and action Scale */
 .navbar .toggler:checked ~ .menu > div {
     transform: scale(1);
-    background-color: black;
+    background-color: black (1,0,0,0.4);
     transition-duration: var(--menu-speed);
 }
 
@@ -106,9 +106,11 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
-
+/* #position-menu {
+    margin-left: -800px;
+} */
 .navbar .menu > div {
     background: var(--overlay-color);
     border-radius: 50%;
@@ -117,14 +119,14 @@
     display: flex;
     flex:none;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     transform: scale(0);
     transform: all 0.4s ease;
 
 }
 
 .navbar .menu > div > div {
-    text-align: center;
+    text-align: left;
     max-width: 90vw;
     max-height: 100vh;
     opacity: 0; 

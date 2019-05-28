@@ -27,7 +27,7 @@ function App() {
           <div className="hamburger"><div></div></div>
           <div className="menu">
             <div>
-              <div>
+              <div id="position-menu">
                 <ul>
                   <li><a href="#home">Lara Loicq</a></li>
                   <li><a href="#about">About</a></li>
