@@ -3,6 +3,7 @@
     top:0;
     left:0;
     z-index:1;
+
     
 }
 
@@ -85,8 +86,6 @@
 
 /* color and action Scale */
 .navbar .toggler:checked ~ .menu > div {
-    transform: scale(1);
-    background-color: black (1,0,0,0.4);
     transition-duration: var(--menu-speed);
 }
 
@@ -108,19 +107,16 @@
     align-items: center;
     justify-content: left;
 }
-/* #position-menu {
-    margin-left: -800px;
-} */
+
 .navbar .menu > div {
     background: var(--overlay-color);
-    border-radius: 50%;
-    width: 200vw;
-    height: 200vw;
+    background: rgba(13,110,139,0.75);
+    width: 20vw;
+    height: 100vh;
     display: flex;
     flex:none;
-    align-items: center;
+    padding-top:10rem; 
     justify-content: left;
-    transform: scale(0);
     transform: all 0.4s ease;
 
 }
@@ -133,7 +129,7 @@
     transition: opacity 0.4s ease;
 
 }
-
+/* color menu */
 .navbar .menu > div > div > ul > li{
     list-style:non;
     color:white;
