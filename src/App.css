@@ -88,12 +88,12 @@ section#contact{
 /* Text Animation Home */
 
 75% {
-  font-size: 300%;
+  font-size: 100%;
   margin-left: 25%;
   width: 150%;
 }
 section#home {
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein;
 }
 
@@ -103,11 +103,11 @@ section#home {
     width: 300%; 
   }
 
-  75% {
-    font-size: 300%;
+  /* 75% {
+    font-size: 100%;
     margin-left: 25%;
     width: 150%;
-  }
+  } */
 
   to {
     margin-left: 0%;
