@@ -7,15 +7,18 @@
   background-color: #003B49;
   min-height: 100vh;
   scroll-behavior: smooth;
+
 }
+
+
 
 
 section {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */ 
   width: 100%;
   height: 100vh;
   scroll-snap-align: center;
@@ -34,48 +37,41 @@ section p {
 section#home{
   background-color: #003B49;
   color:white;
-}
+  text-align: left;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 20px;
 
-section#about{
-  background-color: white;
 }
 
 section#skills{
-  background-color:#003B49;
-  color:white; 
+  background-color: white;
+  color:#003B49; 
+  text-align: left;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 20px;
 }
 
 section#experience{
-  background-color: white;
+  background-color:#003B49;
+  color:white;
+  text-align: left;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 20px;
 }
 
 section#contact{
-  background-color: #003B49;
-  color:white;
+  background-color: white;
+  color:#003B49;
+  text-align: left;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 20px;
 }
 
 
-
-.title {
-  color:white;
-  display: flex;
-  margin-left:6rem;
-  text-align: justify;
-  font-family: 'Lato', sans-serif;
-}
-
-
-.description h4 {
-  color:white;
-  display: flex;
-  max-width: 30rem;
-  margin-left: 6rem;
-  text-align: justify;
-  float: left;
-  font-family: 'Lato', sans-serif;
-
-
-} 
 
 /* Burger Menu Style */
 
@@ -102,12 +98,6 @@ section#home {
     margin-left: 100%;
     width: 300%; 
   }
-
-  /* 75% {
-    font-size: 100%;
-    margin-left: 25%;
-    width: 150%;
-  } */
 
   to {
     margin-left: 0%;

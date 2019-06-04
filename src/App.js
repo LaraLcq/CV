@@ -30,7 +30,6 @@ function App() {
               <div id="position-menu">
                 <ul>
                   <li><a href="#home">Lara Loicq</a></li>
-                  <li><a href="#about">About</a></li>
                   <li><a href="#skills">Skills</a></li>
                   <li><a href="#experience">Experience</a></li>
                   <li><a href="#contact">Contact</a></li>
@@ -50,11 +49,6 @@ function App() {
         <section id="home">
             <h1>Lara Loicq</h1>
             <p>I'm a front-end developer junior and a Bulldog Frenchie Lover</p>
-        </section>
-
-        <section id="about">
-          <h1>About me</h1>
-          <p>I'm a Bulldog Frenchie Lover</p>
         </section>
 
         <section id="skills">
