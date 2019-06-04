@@ -45,10 +45,20 @@ function App() {
 
        
         </nav>
+         
+       
 
         <section id="home">
-            <h1>Lara Loicq</h1>
-            <p>I'm a front-end developer junior and a Bulldog Frenchie Lover</p>
+
+           <div className="texte">
+              <h1>Front-End</h1>
+              <h1>Developer junior</h1>
+              <p>I'm a front-end developer junior and a Bulldog Frenchie Lover</p>
+            </div>
+
+            <div className="pics">
+              <img src="./photo.png" width="500px" />
+            </div>
         </section>
 
         <section id="skills">

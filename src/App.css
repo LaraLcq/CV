@@ -25,7 +25,10 @@ section {
 }
 
 section h1 {
-  font-size: 4rem
+  font-size: 4rem;
+  width : auto;
+  height: 40px;
+
 }
 
 section p {
@@ -38,9 +41,7 @@ section#home{
   background-color: #003B49;
   color:white;
   text-align: left;
-  flex-direction: column;
   padding-left: 100px;
-  padding-top: 20px;
 
 }
 
@@ -83,26 +84,40 @@ section#contact{
 
 /* Text Animation Home */
 
-75% {
-  font-size: 100%;
-  margin-left: 25%;
-  width: 150%;
-}
-section#home {
+.texte {
   animation-duration: 2s;
   animation-name: slidein;
+  padding-top: 160px;
+}
+
+section#home {
+  display: flex;
 }
 
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%; 
+    /* width: 300%;  */
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
+    /* width: 100%; */
   }
+}
+
+.pics {
+  filter: drop-shadow(0 0 0.50rem);
+  padding-top: 70px;
+  flex-direction: row;
+  margin : 0 auto; 
+  display: table;
+  
+}
+
+.pics img{
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
