@@ -41,7 +41,7 @@ section#home{
   background-color: #003B49;
   color:white;
   text-align: left;
-  padding-left: 100px;
+  padding-left: 200px;
 
 }
 
@@ -88,21 +88,22 @@ section#contact{
   animation-duration: 2s;
   animation-name: slidein;
   padding-top: 160px;
+  width: 600px;
+  height: auto;
+
 }
 
-section#home {
-  display: flex;
-}
+
 
 @keyframes slidein {
   from {
     margin-left: 100%;
-    /* width: 300%;  */
+    width: 600px%; 
   }
 
   to {
     margin-left: 0%;
-    /* width: 100%; */
+    width: 600px;
   }
 }
 
@@ -110,14 +111,13 @@ section#home {
   filter: drop-shadow(0 0 0.50rem);
   padding-top: 70px;
   flex-direction: row;
-  margin : 0 auto; 
-  display: table;
   
 }
 
 .pics img{
   display: table-cell;
   vertical-align: middle;
+  padding-top: 120px;
 }
 
 

@@ -53,11 +53,15 @@ function App() {
            <div className="texte">
               <h1>Front-End</h1>
               <h1>Developer junior</h1>
-              <p>I'm a front-end developer junior and a Bulldog Frenchie Lover</p>
+              <p>I'm a front-end developer junior and a Bulldog Frenchie Lover.
+                I'm a Javascript and ReactJs addict. I'm actually looking for a great 
+                internship or hiring opportunity at Liège/Luxembourg/Namur. 
+                I learn quickly and I love to learn new programming langage!
+              </p>
             </div>
 
             <div className="pics">
-              <img src="./photo.png" width="500px" />
+              <img src="./photo.png" width="500px" alt="img"/>
             </div>
         </section>
 
