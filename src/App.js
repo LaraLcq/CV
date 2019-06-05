@@ -42,13 +42,8 @@ function App() {
       
        </div>
     </header> 
-
-       
         </nav>
-         
-       
-
-        <section id="home">
+          <section id="home">
 
            <div className="texte">
               <h1>Front-End</h1>
@@ -67,7 +62,34 @@ function App() {
 
         <section id="skills">
           <h1>Skills</h1>
-          <p>I'm a Bulldog Frenchie Lover</p>
+
+        <div className="Skillsliste">
+          <div id="dayto">
+          <p>Day To Day Confort</p>
+            <ul>
+              <li><p>Javascript</p></li>
+              <li><p>ReactJs</p></li>
+              <li><p>Html/CSS</p></li>
+              <li><p>Sass</p></li>
+              <li><p>Wordpress</p></li>
+              <li><p>Adobe Suite</p></li>
+              <li><p>Figma/Sketch</p></li>
+              <li><p>Git</p></li>
+              <li><p>Scrum/Agile</p></li>
+            </ul>
+          </div>
+
+          <div id="experience">
+          <p>Experience with</p>
+            <ul>
+              <li><p>NodeJs</p></li>
+              <li><p>PHP</p></li>
+              <li><p>Python</p></li>
+              <li><p>Java</p></li>
+              <li><p>Responsive Layout/Design</p></li>
+            </ul>
+          </div>
+          </div>
         </section>
 
         <section id="experience">
