@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
 
+body{
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
   background-color: #003B49;
@@ -37,8 +41,7 @@ section p {
 section#home{
   background-color: #003B49;
   color:white;
-  text-align: left;
-  padding-left: 200px;
+ 
 
 }
 
@@ -86,6 +89,8 @@ section#contact{
   padding-top: 120px;
   width: 600px;
   height: auto;
+  text-align: left;
+  padding-left: 150px;
 
 }
 
@@ -114,52 +119,38 @@ section#contact{
   display: table-cell;
   vertical-align: middle;
   padding-top: 120px;
+  padding-left: 150px;
 }
 
-/* Text Animated */
 
-.ml6 {
-  position: relative;
-  font-weight: 900;
-  font-size: 3.3em;
-}
-
-.ml6 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-.ml6 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
 
 .Skillsliste {
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: flex-start;
   display:flex;
   text-align: left;
-  /* justify-content: center; */
+  width: 100%;
+  align-content: flex-start;
 }
 
 #dayto {
   margin: 0 50px;
 }
 
-#skills h1{
-  padding-left: 200px;
-  padding-top: 10px;
+.TitreSkills{
+  padding-left: 150px;
+  padding-top: 0px;
+  text-align: left;
 }
 
 .Skillsliste {
-  padding-left: 20px;
-  padding-top:70px;
+  padding-left: 100px;
 
 
+}
+
+.column{
+  flex-direction: column;
 }
 
 

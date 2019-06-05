@@ -56,12 +56,14 @@ function App() {
             </div>
 
             <div className="pics">
-              <img src="./photo.png" width="500px" alt="img"/>
+              <img src="./photo.png" width="50%" alt="img"/>
             </div>
         </section>
 
-        <section id="skills">
-          <h1>Skills</h1>
+        <section id="skills" className="column">
+          <div className="TitreSkills">
+            <h1>Skills</h1>
+          </div>
 
         <div className="Skillsliste">
           <div id="dayto">
@@ -79,7 +81,7 @@ function App() {
             </ul>
           </div>
 
-          <div id="experience">
+          <div id="XP">
           <p>Experience with</p>
             <ul>
               <li><p>NodeJs</p></li>
@@ -89,7 +91,7 @@ function App() {
               <li><p>Responsive Layout/Design</p></li>
             </ul>
           </div>
-          </div>
+        </div>
         </section>
 
         <section id="experience">
