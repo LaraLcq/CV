@@ -74,6 +74,7 @@ function App() {
               <li><p>Html/CSS</p></li>
               <li><p>Sass</p></li>
               <li><p>Wordpress</p></li>
+              <li><p>Bootstrap</p></li>
               <li><p>Adobe Suite</p></li>
               <li><p>Figma/Sketch</p></li>
               <li><p>Git</p></li>
@@ -86,12 +87,26 @@ function App() {
             <ul>
               <li><p>NodeJs</p></li>
               <li><p>PHP</p></li>
+              <li><p>PostgreSQL</p></li>
               <li><p>Python</p></li>
               <li><p>Java</p></li>
-              <li><p>Responsive Layout/Design</p></li>
+              <li><p>Responsive Layout</p></li>
             </ul>
           </div>
+
+          <div id="Learn">
+          <p>Actually Learning</p>
+            <ul>
+              <li><p>Angular</p></li>
+              <li><p>Python</p></li>
+              <li><p>Svelte</p></li>
+            </ul>
+          </div>
+          
+
         </div>
+
+        
         </section>
 
         <section id="experience">
