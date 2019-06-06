@@ -69,45 +69,41 @@ function App() {
           <div id="dayto">
           <p>Day To Day Confort</p>
             <ul>
-              <li><p>Javascript</p></li>
-              <li><p>ReactJs</p></li>
-              <li><p>Html/CSS</p></li>
-              <li><p>Sass</p></li>
-              <li><p>Wordpress</p></li>
-              <li><p>Bootstrap</p></li>
-              <li><p>Adobe Suite</p></li>
-              <li><p>Figma/Sketch</p></li>
-              <li><p>Git</p></li>
-              <li><p>Scrum/Agile</p></li>
+              <li>Javascript</li>
+              <li>ReactJs</li>
+              <li>Html/CSS</li>
+              <li>Sass</li>
+              <li>Wordpress</li>
+              <li>Bootstrap</li>
+              <li>Adobe Suite</li>
+              <li>Figma/Sketch</li>
+              <li>Git</li>
+              <li>Scrum/Agile</li>
             </ul>
           </div>
 
           <div id="XP">
           <p>Experience with</p>
             <ul>
-              <li><p>NodeJs</p></li>
-              <li><p>PHP</p></li>
-              <li><p>PostgreSQL</p></li>
-              <li><p>Python</p></li>
-              <li><p>Java</p></li>
-              <li><p>Responsive Layout</p></li>
+              <li>NodeJs</li>
+              <li>PHP</li>
+              <li>PostgreSQL</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Responsive Layout</li>
             </ul>
           </div>
 
           <div id="Learn">
           <p>Actually Learning</p>
             <ul>
-              <li><p>Angular</p></li>
-              <li><p>Python</p></li>
-              <li><p>Svelte</p></li>
+              <li>React Native</li>
+              <li>Python</li>
+              <li>Svelte</li>
             </ul>
           </div>
-          
-
         </div>
-
-        
-        </section>
+      </section>
 
         <section id="experience">
           <h1>Experience</h1>
